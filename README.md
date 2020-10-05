@@ -17,7 +17,7 @@ Apesar da sua simplicidade, ele demostra vários aspectos fundamentais do framew
 Se você quiser pôr este projecto a correr, sem mais demora, segue os seguintes passos:
 
 1. Cópia o repositório para o teu computador  
-		**git clone https://github.com/heidy-miguel/crud-simples-com-laravel-8.git 
+		**git clone https://github.com/heidy-miguel/crud-simples-com-laravel-8.git**
 2. Instala as dependências do projecto usando o composer  
 		**composer install**
 3. Cria uma base de dados com um nome ao teu gosto  
