@@ -1,0 +1,156 @@
+body {
+	display: flex;
+	flex-direction: column;
+	color: #2A2A2A;
+	font-size: 16px;
+	background-color: #E9FFFFFF;
+	line-height: 1.8;
+	height: 100vh;
+	margin: 0;
+}
+header, main, footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+}
+header, footer {
+	text-align: center;
+}
+main table {
+	width: 100%;
+}
+main table td, th {
+	border: 1px solid #2A2A2A;
+	padding: 8px;
+	}
+thead th {
+	color: white;
+	background-color: #2A2A2A;
+}
+tr td:nth-child(4) {
+	background-color: #3C7800FF;
+}
+tr td:nth-child(5) {
+	background-color: #006293FF
+}
+
+tr td:nth-child(6) {
+	background-color: #8A0000FF
+}
+
+tr td:nth-child(4) a, tr td:nth-child(5) a, tr td:nth-child(6) a {
+	color: white;
+	text-decoration: none;
+}
+tr td:nth-child(4), tr td:nth-child(5), tr td:nth-child(6) {
+	text-align: center;
+}
+tr td:nth-child(1) {
+	text-align: center;
+}
+tr:nth-child(odd) {
+	background-color: #CFF;
+}
+tr:nth-child(even) {
+	background-color: #B5E6FF;
+}
+tr:hover {
+	background-color: #94BCD0;
+}
+.btn {
+	border: 1px solid grey;
+	margin: 20px 0;
+	padding: 10px 30px;
+	color: white;
+	background-color: #2A2A2A;
+	border-radius: 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #363636;
+}
+/******************************/
+/** Estilo para o formulário **/
+/******************************/
+form {
+	width: 100%;
+}
+label  {
+	float:left;
+	clear: left; 
+	width: 15%;
+	text-align: right;
+	text-transform: uppercase;
+	padding: 5px;
+	margin: 5px;
+	color: white;
+	background-color: #2A2A2A;
+}
+input {
+	width: 60%;
+	border: 1px solid #2A2A2A;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 5px;
+}
+input:focus {
+	border: 2px solid grey;
+}
+form .btn {
+	margin-right: 192px;
+	cursor: pointer;
+}
+td form button {
+	color: white;
+	background-color: transparent;
+	border: 0px solid black;
+	font-size: 16px;
+	font-family: inherit;
+}
+.detalhes {
+	list-style-type: none;
+}
+.detalhes li  {
+	width: 100%;
+	padding: 10px;
+	margin: 5px;
+	color: white;
+	background-color: #2A2A2A;
+
+}
+.verde {
+	background-color: #3C7800FF;
+}
+.vermelho {
+	background-color: #8A0000FF;
+}
+.alerta {
+	padding: 15px;
+	color: white;
+	margin-bottom: 10px;
+}
+.close {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.close:hover {
+	color: black;
+}
+footer {
+	color: white;
+	clear: both;
+	position: relative;
+	height: 60px;
+	margin-top: auto;
+	width: 100%;
+	background-color: #2A2A2A;
+}
